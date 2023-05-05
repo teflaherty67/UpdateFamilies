@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command UpdateFamilies</Text>
+    <Description>Some description for UpdateFamilies</Description>
+    <Assembly>UpdateFamilies.dll</Assembly>
+    <FullClassName>UpdateFamilies.Command</FullClassName>
+    <ClientId>0263095e-1423-4c41-8be4-0f3c450659f4</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application UpdateFamilies</Name>
+    <Assembly>UpdateFamilies.dll</Assembly>
+    <FullClassName>UpdateFamilies.App</FullClassName>
+    <ClientId>f472f275-865c-4229-b06e-f5e517db55a5</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
